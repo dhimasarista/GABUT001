@@ -1,7 +1,7 @@
 <?php
 // src/controllers/MahasiswaController.php
 
-require_once '../src/models/Mahasiswa.php';
+require_once './src/models/Mahasiswa.php';
 
 class MahasiswaController
 {
@@ -15,7 +15,7 @@ class MahasiswaController
     public function index()
     {
         $mahasiswa = $this->mahasiswaModel->getAll();
-        require '../src/views/index.php';
+        require './src/views/index.php';
     }
 
     public function add()

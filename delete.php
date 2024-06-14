@@ -1,7 +1,7 @@
 <?php
 // public/delete.php
 
-require_once '../src/controllers/Mahasiswa.php';
+require_once './src/controllers/Mahasiswa.php';
 
 if (isset($_POST['nim'])) {
     $nim = $_POST['nim'];

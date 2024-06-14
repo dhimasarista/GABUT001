@@ -6,7 +6,7 @@ final class Mahasiswa
 
     public function __construct()
     {
-        require "../config/database.php";
+        require "./config/database.php";
         $this->pdo = $pdo;
     }
 
